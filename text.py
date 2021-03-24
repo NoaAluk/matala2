@@ -14,10 +14,14 @@ def countword():
     word2=''
     for i in text:
         if a==0:
-            word = i.lower()
+            word = i.strip()
         else:
             word2 = revword(i)
-            count1 = word2.count(word) 
+            print(word2)
+            count1 = word2.count(word)
+            print(count1)
             count+=count1
         a+=1
-    return count 
+    return count  
+
+countword()
