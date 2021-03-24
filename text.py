@@ -1,3 +1,4 @@
+def revword (word:str):
     lenght = len(word)
     a=' ' 
     for i in range (lenght):
