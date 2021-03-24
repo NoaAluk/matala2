@@ -14,7 +14,7 @@ def countword():
     word2=''
     for i in text:
         if a==0:
-            word = revword(i)
+            word = i
         else:
             word2 = revword(i)
             count1 = word2.count(word) 
