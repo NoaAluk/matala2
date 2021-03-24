@@ -17,9 +17,7 @@ def countword():
             word = i.strip()
         else:
             word2 = revword(i)
-            print(word2)
             count1 = word2.count(word)
-            print(count1)
             count+=count1
         a+=1
     return count  
