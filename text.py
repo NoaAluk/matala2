@@ -1,6 +1,6 @@
 def revword (word:str):
     lenght = len(word)
-    a=' ' 
+    a='' 
     for i in range (lenght):
         a=a+word[lenght-1-i]
     a=a.lstrip()
@@ -17,7 +17,7 @@ def countword():
             word = revword(i)
         else:
             word2 = revword(i)
-        if word2.startswith(word):
-            count+=1
+            count1 = word2.count(word) 
+            count+=count1
         a+=1
     return count 
