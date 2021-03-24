@@ -19,7 +19,4 @@ def countword():
         if word2.startswith(word):
             count+=1
         a+=1
-    print (count) 
-
-countword()
-    
+    return count 
